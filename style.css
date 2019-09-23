@@ -1,0 +1,103 @@
+.main {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.perfil{
+  background-color: rgba(246, 212, 152, 0.747);
+  text-align: center;
+  width: 20vw;
+  height: 23vw;
+  font-family: 'Ruge Boogie', cursive;
+  font-size: 1vw;
+  border-color:bisque;  
+  border-style: solid;
+  align-content: flex-start;
+  border-radius: 2vw;
+}
+.perfil p{
+
+  margin: 0%;
+
+}
+
+h2{
+  text-decoration: underline;
+  font-family:cursive;  
+  margin:0%;
+  margin-top: 0px;
+  font-size: 2vw;
+
+}
+
+
+.trabajos{
+  font-size: 2vw;
+  text-align: center;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+img {
+  width: 14vw; 
+  height: 10vw;
+  margin-top: 1vw;
+  border-radius: 5vw;
+}
+
+h1{
+  text-decoration: underline;
+  font-family:cursive;  
+  font-size: 2vw;
+  display: contents;
+}
+
+.proyecto{
+  margin-top: 0.5vw;
+  border-color:bisque;
+  background-color: rgba(246, 212, 152, 0.534);
+  border-radius: 2vw;
+  border-style: solid;
+  width: 15vw;
+}
+
+.proyecto p {
+  font-family:cursive;   
+  font-size: 0.8vw;
+}
+
+.espacio{
+  width: 9.7vw;
+  height: 9.7vw;
+}
+
+.proyecto1{
+  border-color:bisque;
+  background-color: rgba(246, 212, 152, 0.534);
+  border-radius: 30px;
+  border-style: solid;
+  width: 15vw;
+  margin-top: 4vw;
+}
+
+.proyecto1 p {
+  font-family:cursive;   
+  font-size: 0.8vw;
+}
+
+/* animaciones */
+
+img:hover{
+  border-radius:1vw;
+  /* width: 14vw; 
+  height: 10.4vw; */
+  transition: 1s;
+
+/* }
+
+div:hover{
+
+  src: "imagenes\activo-6@2x.png"
+
+} */

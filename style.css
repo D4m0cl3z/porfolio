@@ -8,14 +8,16 @@
   text-align: center;
   width: 20vw;
   height: 23vw;
-  font-family: 'Ruge Boogie', cursive;
+  font-family: 'Nunito', sans-serif;
   font-size: 1vw;
   border-color:bisque;  
   border-style: solid;
   align-content: flex-start;
   border-radius: 2vw;
 }
+
 .perfil p{
+
 
   margin: 0%;
 
@@ -48,7 +50,7 @@ img {
 
 h1{
   text-decoration: underline;
-  font-family:cursive;  
+  font-family: 'Nunito', sans-serif;
   font-size: 2vw;
   display: contents;
 }
@@ -60,29 +62,34 @@ h1{
   border-radius: 2vw;
   border-style: solid;
   width: 15vw;
+  height: 22.5vw;
 }
 
 .proyecto p {
-  font-family:cursive;   
+  font-family: 'Nunito', sans-serif;
   font-size: 0.8vw;
 }
 
 .espacio{
-  width: 9.7vw;
-  height: 9.7vw;
+  font-size: 1.8vw;
+  text-align: center;
+  height: 23vw;
+  width: 9.8vw;
+  
 }
 
 .proyecto1{
+  margin-top: 4vw;
   border-color:bisque;
   background-color: rgba(246, 212, 152, 0.534);
   border-radius: 30px;
   border-style: solid;
   width: 15vw;
-  margin-top: 4vw;
+  height: 22.5vw;
 }
 
 .proyecto1 p {
-  font-family:cursive;   
+  font-family: 'Nunito', sans-serif;
   font-size: 0.8vw;
 }
 
@@ -90,14 +97,48 @@ h1{
 
 img:hover{
   border-radius:1vw;
-  /* width: 14vw; 
-  height: 10.4vw; */
   transition: 1s;
+}
 
-/* }
+.perfil:hover{
+  
+background-color: rgba(238, 205, 96, 0.712);
+border-color: rgba(238, 205, 96, 0.712);
+transition: 2s;
+}
 
-div:hover{
+.proyecto:hover{
+background-color: rgba(246, 212, 152, 0.856);
+border-color: rgba(246, 212, 152, 0.856);
+transition: 1s;
+}
 
-  src: "imagenes\activo-6@2x.png"
+.proyecto1:hover{
+  background-color: rgba(246, 212, 152, 0.856);
+  border-color: rgba(246, 212, 152, 0.856);
+  transition: 2s;
+}
 
-} */
+.whatsapp{
+  color:cornflowerblue;
+}
+.linkedin{
+  color:cornflowerblue;
+}
+.e-mail{
+  color: cornflowerblue;
+}
+
+.whatsapp:hover{
+  font-size: 2.4vw;
+  transition: 1s;
+}
+.linkedin:hover{
+  font-size: 2.4vw;
+  transition: 1s;
+}
+.e-mail:hover{
+  font-size: 2.2vw;
+  transition: 1s;
+  
+}

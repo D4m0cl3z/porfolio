@@ -1,0 +1,165 @@
+.main {
+  display: flex;
+  flex-flow: wrap;
+}
+
+.perfil{
+  background-color: rgba(246, 212, 152, 0.747);
+  text-align: center;
+  width: 20vw;
+  height: 23vw;
+  font-family: 'Nunito', sans-serif;
+  font-size: 1vw;
+  border-color:bisque;  
+  border-style: solid;
+  align-content: flex-start;
+  border-radius: 2vw;
+}
+
+.perfil p{
+
+
+  margin: 0%;
+
+}
+
+h2{
+  text-decoration: underline;
+  font-family:cursive;  
+  margin:0%;
+  margin-top: 0px;
+  font-size: 2vw;
+
+}
+
+
+.trabajos{
+  font-size: 2vw;
+  text-align: center;
+  display: inline-flex;
+  justify-content: space-around;
+  flex-grow: 1;
+}
+
+img {
+  width: 14vw; 
+  height: 10vw;
+  margin-top: 1vw;
+  border-radius: 5vw;
+}
+
+h1{
+  text-decoration: underline;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2vw;
+  display: contents;
+}
+
+.proyecto{
+  margin-top: 0.5vw;
+  border-color:bisque;
+  background-color: rgba(246, 212, 152, 0.534);
+  border-radius: 2vw;
+  border-style: solid;
+  width: 15vw;
+  height: 22.5vw;
+}
+
+.proyecto p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8vw;
+}
+
+.contacto{
+  margin-left: -4%;
+  font-size: 1.8vw;
+  text-align:center; 
+  height: 23vw;
+  width: 14.8vw;
+  text-decoration: none;
+}
+
+.proyecto1{
+  margin-top: 4vw;
+  border-color:bisque;
+  background-color: rgba(246, 212, 152, 0.534);
+  border-radius: 30px;
+  border-style: solid;
+  width: 15vw;
+  height: 22.5vw;
+}
+
+.proyecto1 p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 0.8vw;
+}
+
+/* animaciones */
+
+img:hover{
+  border-radius:1vw;
+  transition: 1s;
+}
+
+.perfil:hover{
+  
+background-color: rgba(238, 205, 96, 0.712);
+border-color: rgba(238, 205, 96, 0.712);
+transition: 2s;
+}
+
+.proyecto:hover{
+background-color: rgba(246, 212, 152, 0.856);
+border-color: rgba(246, 212, 152, 0.856);
+transition: 1s;
+}
+
+.proyecto1:hover{
+  background-color: rgba(246, 212, 152, 0.856);
+  border-color: rgba(246, 212, 152, 0.856);
+  transition: 2s;
+}
+
+.whatsapp{
+  font-size: 1.5vw;
+  text-align:justify; 
+  color:cornflowerblue;
+}
+
+.linkedin{
+  font-size: 1.5vw;
+  text-align:justify; 
+  color:cornflowerblue;
+}
+.e-mail{
+  font-size: 1.5vw;
+  text-align:justify; 
+  color: cornflowerblue;
+}
+
+.whatsapp:hover{
+  font-size: 1.8vw;
+  transition: 1s;
+}
+.linkedin:hover{
+  font-size: 1.8vw;
+  transition: 1s;
+}
+.e-mail:hover{
+  font-size: 1.8vw;
+  transition: 1s;
+  
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  .body{
+    display: block;
+  }
+
+}

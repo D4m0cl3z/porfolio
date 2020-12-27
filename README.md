@@ -1,2 +1,3 @@
 # porfolio
-un porfolio que contiene todos los trabajos
+un porfolio que tiene proyectos demostrativos
+
